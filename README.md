@@ -50,8 +50,8 @@ This project documents a practical security hardening approach for Microsoft 365
 
 ## Project Files 
 
-- [Documentation](Documentation/iam-security-plan.md) - Identity security hardening plan
-- [Documentation](Documentation/user-lifecycle.md) - Onboarding, role changes, and offboarding process
-- [Documentation](Documentation/rbac-mdodel.md) - Administrative role and privileged access plan
-- [Documentation](Documentation/mfa-conditional-access-plan.md) - Conditional Access and MFA policy planning
+- [iam-security-plan.md](Documentation/iam-security-plan.md) - Identity security hardening plan
+- [user-lifecycle.md](Documentation/user-lifecycle.md) - Onboarding, role changes, and offboarding process
+- [rbac-model.md](Documentation/rbac-model.md) - Administrative role and privileged access plan
+- [mfa-conditional-access-plan.md](Documentation/mfa-conditional-access-plan.md) - Conditional Access and MFA policy planning
 - [Diagrams](Diagrams/) - IAM security flow diagrams
