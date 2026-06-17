@@ -34,7 +34,7 @@ In a Microsoft 365 environment, RBAC helps control access to services such as Mi
 
 
 ## Recommended Role Model
-|*Role Type*|*Example Responsibility*|*Access Recommendation*|
+|Role Type|Example Responsibility|Access Recommendation|
 | --- | --- | --- |
 |Standard User|Email, Teams, OneDrive, SharePoint access|No administrative privileges|
 |Help Desk / Support|Password resets, basic user support, MFA assistance|Limited help desk roles only|
