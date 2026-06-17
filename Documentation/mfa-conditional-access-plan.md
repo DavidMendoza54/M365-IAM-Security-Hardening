@@ -79,3 +79,13 @@ Enable MFA and Conditional Access policies for administrators first, then standa
 ## Phase 5: Monitoring
 
 Review sign-in logs, MFA failures, user issues, and blocked sign-ins after enforcement.
+
+## Risk and Considerations
+
+|Risk|Consideration|
+| --- | --- |
+|Users may be locked out|Pilot testing and user communication should happen before enforcement|
+|Older applications may break|Legacy authentication usage should be reviewed before blocking|
+|Too many policies may cause confusion|Policies should be documented clearly and reviewed regularly|
+|Admin account lockout|Emergency access accounts should be planned and protected carefully|
+|MFA fatigue attacks|Stronger MFA methods should be encouraged where possible|
