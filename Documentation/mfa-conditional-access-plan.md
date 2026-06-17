@@ -76,7 +76,7 @@ Notify users before enforcing MFA. Provide instructions for setting up Microsoft
 
 Enable MFA and Conditional Access policies for administrators first, then standard users.
 
-## Phase 5: Monitoring
+### Phase 5: Monitoring
 
 Review sign-in logs, MFA failures, user issues, and blocked sign-ins after enforcement.
 
