@@ -13,3 +13,18 @@ This project is written as a portfolio case study and does not include real tena
 - Improve onboarding, role change, and offboarding processes
 - Monitor sign-in activity and identity-related security events
 - Support Zero Trust principles by verifying access instead of automatically trusting it
+
+# IAM Hardening Checklist
+
+Control|Priority|
+| --- | --- |
+|Require MFA for all administrators|High|
+|Require MFA for all users|High|
+|Disable legacy authentication|High|
+|Review Global Administrator assignments|High|
+|Create user onboarding checklist|Medium|
+|Create user offboarding checklist|Medium|
+|Review sign-in logs regularly|Medium|
+|Document privileged role assignments|Medium|
+|Review inactive accounts|Medium|
+|Monitor MFA registration changes|Medium|
