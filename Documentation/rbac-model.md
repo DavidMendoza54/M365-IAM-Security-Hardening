@@ -33,3 +33,12 @@ In a Microsoft 365 environment, RBAC helps control access to services such as Mi
 |Unreviewed role assignments|Old or unnecessary permissions remain active|Document and review privileged roles|Review admin sign-ins and audit logs|
 
 
+## Recommended Role Model
+|*Role Type*|*Example Responsibility*|*Access Recommendation*|
+| --- | --- | --- |
+|Standard User|Email, Teams, OneDrive, SharePoint access|No administrative privileges|
+|Help Desk / Support|Password resets, basic user support, MFA assistance|Limited help desk roles only|
+|Exchange Admin|Mailbox management, shared mailboxes, mail flow settings|Exchange-specific admin role|
+|Exchange Admin|SharePoint sites, permissions, and storage management|SharePoint-specific admin role|
+|Security Admin|Security alerts, policies, and security settings|Security-focused admin role|
+|Global Administrator|Tenant-wide emergency or high-level administration|Highly restricted and reviewed regularly|
