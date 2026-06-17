@@ -44,3 +44,18 @@ This allows the organization to apply stronger controls to higher-risk situation
 |Require MFA for risky sign-ins|Users with unusual or risky login behavior|Require MFA|Adds protection when sign-in behavior appears suspicious|
 |Restrict access to sensitive apps|Users accessing sensitive Microsoft 365 apps|Require MFA or trusted device|Protects email, files, and administrative portals|
 |Monitor unfamiliar locations|Users signing in from unusual locations|Require MFA or review|Helps detect potentially suspicious account activity|
+
+## Admin Account Protection
+
+Administrative accounts should have stronger access requirements than standard user accounts.
+
+Recommended controls:
+
+- Require MFA for all admin accounts
+- Limit Global Administrator access
+- Use least privilege role assignments
+- Separate daily-use accounts from admin accounts when possible
+- Monitor admin sign-in activity
+- Monitor admin sign-in activity
+
+## Legacy Authentication Risk
