@@ -42,3 +42,71 @@ In a Microsoft 365 environment, RBAC helps control access to services such as Mi
 |Exchange Admin|SharePoint sites, permissions, and storage management|SharePoint-specific admin role|
 |Security Admin|Security alerts, policies, and security settings|Security-focused admin role|
 |Global Administrator|Tenant-wide emergency or high-level administration|Highly restricted and reviewed regularly|
+
+## Least Privilege Approach
+
+Users and administrators should only receive the permissions needed to perform their responsibilities. Broad administrator roles should be avoided unless there is a clear business need.
+
+### Recommended actions:
+
+- Assign service-specific roles instead of Global Administrator when possible
+- Document why each privileged role is needed
+- Remove access when users change roles
+- Review privileged roles on a scheduled basis
+- Avoid assigning admin access permanently unless required
+- Use separate admin accounts for privileged work when possible
+
+## Global Administrator Protection
+
+Global Administrator access should be treated as the highest-risk role in the environment because it can make major tenant-wide changes.
+
+### Recommended protections:
+
+- Limit the number of Global Administrators
+- Require MFA for every Global Administrator account
+- Review Global Administrator assignments regularly
+- Review Global Administrator assignments regularly
+- Monitor Global Administrator sign-ins
+- Keep emergency access accounts protected and documented
+
+## Admin Account Seperation
+
+Administrative users should use standard accounts for daily work and separate admin accounts for privileged tasks. This reduces the chance that privileged access is exposed through normal user activity such as email, web browsing, or general application use.
+
+### Example:
+
+|Account Type|Purpose|
+| --- | --- |
+|Standard Account|Daily work such as email, Teams, SharePoint, and normal activity|
+|Admin Account|Privileged administrative tasks only|
+
+## Access Review Process
+
+Privileged access should be reviewed regularly to confirm that each admin role is still needed.
+
+### Recommended access review questions:
+
+- Does this user still need this role?
+- Is this the lowest privilege role that meets the need?
+- Is the role assigned to a named account?
+- Is MFA enabled for the account?
+- Has the user changed job responsibilities?
+- Is there documentation explaining why access is needed?
+
+## Example Implementation Phases
+
+### Phase 1: Review Current Access
+
+Review all administrative roles, Global Administrator assignments, shared admin accounts, inactive accounts, and users with elevated permissions.
+
+### Phase 2: Reduce Excessive Privileges
+
+Remove unnecessary admin access, replace broad roles with service-specific roles, and document approved privileged users.
+
+### Phase 3: Strengthen Admin Account Security
+
+Require MFA for privileged accounts, separate admin accounts from daily-use accounts, and monitor admin sign-ins.
+
+### Phase 4: Ongoing Review
+
+Create a recurring access review process to reduce privilege creep and keep role assignments accurate over time.
