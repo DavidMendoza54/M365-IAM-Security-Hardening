@@ -58,4 +58,24 @@ Recommended controls:
 - Monitor admin sign-in activity
 - Monitor admin sign-in activity
 
-## Legacy Authentication Risk
+## Example Rollout Plan
+
+### Phase 1: Review
+
+Review current MFA registration, administrator accounts, legacy authentication usage, and sign-in logs.
+
+### Phase 2: Pilot
+
+Apply MFA and Conditional Access policies to a small test group before applying them to all users.
+
+### Phase 3: User Communication
+
+Notify users before enforcing MFA. Provide instructions for setting up Microsoft Authenticator or approved MFA methods.
+
+### Phase 4: Ennforcement
+
+Enable MFA and Conditional Access policies for administrators first, then standard users.
+
+## Phase 5: Monitoring
+
+Review sign-in logs, MFA failures, user issues, and blocked sign-ins after enforcement.
