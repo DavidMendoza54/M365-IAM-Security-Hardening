@@ -31,7 +31,7 @@ This project is written as a portfolio case study and does not include real tena
 ## IAM Hardening Checklist
 
 Control|Priority|
-| --- | --- |
+| :--- | :---: |
 |Require MFA for all administrators|High|
 |Require MFA for all users|High|
 |Disable legacy authentication|High|
